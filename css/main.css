@@ -1,0 +1,93 @@
+body{
+background-color: #ccc;
+}
+.margin-bottom-0{
+    margin-bottom: 0;
+}
+.container{
+    display:inline-block;
+    width: 800px;
+    margin-top: 80px;
+    margin-left: calc((100% - 800px) / 2);
+}
+    .container > .left {
+        display:inline-block;
+        width: 40%;
+        float: left;
+        background-color: blue;
+        color: #fff;
+    }
+        .container > .left > h1{
+            display:inline-block;
+            width: 100%;    
+            padding: 40px;
+        }
+        .container > .left > footer{
+            display:inline-block;
+            width: 100%;
+            padding: 20px;
+        }
+    .container > .right {
+        display: inline-block;
+        width: 60%;
+        padding: 60px;
+        float: left;
+        background-color: #fff;
+    } 
+        .container > .right > form {
+            display: inline-block;
+            width: 100%;
+        }
+            .container > .right > form > .form-row {
+                display: inline-block;
+                width: 100%;
+                margin-bottom: 30px;
+            }
+            .container > .right > form > .form-row:last-child {
+                margin-bottom: 0;
+            }
+                .container > .right > form > .form-row > label {
+                    display: inline-block;
+                    width: 100%;
+                    text-transform: uppercase;
+                    color: #777;
+                    margin-bottom: 5px;
+                    font-weight: bold;
+                    font-style: 14px;
+                    line-height: 20px;
+                 }
+                .container > .right > form > .form-row > input {
+                display: inline-block;
+                width: 100%;
+                font-style: 18px;
+                line-height: 30px;
+                border: none;  
+                border-bottom: 1px solid #777;
+                }
+                .container > .right > form > .form-row > .btn {
+                    display: inline-block;
+                    padding: 5px;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    border-radius: 20px;
+                    font-size: 18px;
+                    line-height: 30px;
+                    background-color: blue;
+                    color: #fff;
+                    cursor: pointer;
+                }
+                .container > .right > form > .form-row > span {
+                    display: inline-block;
+                    padding: 5px;
+                    margin-left: 20px;
+                    margin-right: 20px;
+                    font-size: 18px;
+                    line-height: 30px;
+                }
+                .container > .right > form > .form-row > a {
+                    display: inline-block;
+                    padding: 5px;
+                    text-decoration: none;
+                    font-size: 18px;
+                    line-height: 30px;
+}
